@@ -3,7 +3,7 @@ import ReactAnime from 'react-animejs'
 
 import { StyledPageContainer } from './style'
 
-const { Anime, stagger } = ReactAnime
+const { Anime } = ReactAnime
 
 export default function AnimatedPageTransition({ children, color }) {
     return (
